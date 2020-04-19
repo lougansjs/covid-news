@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", function() {
     window.setTimeout(function () {
       status.classList.remove("fail");
       status.classList.add("d-none");
-    }, 3000);
+    }, 5000);
   }
 
   // handle the form submission event
@@ -41,7 +41,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
 function ajax(method, url, data, success, error) {
   var xhr = new XMLHttpRequest();
-  console.log(method)
   xhr.open(method, url);
   xhr.setRequestHeader("Accept", "application/json");
   xhr.onreadystatechange = function() {
