@@ -43,6 +43,10 @@ nav.navbar {
   padding: 15px 0;
 }
 
+nav.navbar a {
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
 }
@@ -138,7 +142,7 @@ nav.navbar {
   transition: all .4s ease-in-out;
 }
 
-.section-news {
+.section-news, .section-more {
   padding: 50px 0;
 }
 
@@ -473,4 +477,34 @@ progress {
   padding: 12px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.content-reference ul li {
+  list-style-type: none;
+  margin-top: 35px;
+}
+
+.content-reference ul li i {
+  font-size: 30px;
+  color: #8cb930;
+}
+
+.content-reference .list .group-title .name {
+  font-size: 28px;
+  font-weight: 600;
+  color: #b1263d;
+  padding-left: 12px;
+}
+
+.content-reference .list .link {
+  margin-top: 10px;
+}
+
+.content-reference .list .link a {
+  text-decoration: none;
+  color: #353535;
+}
+
+.content-reference .list .link a:hover {
+  text-decoration: underline;
 }
