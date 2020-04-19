@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function() {
     form.reset();
     status.classList.remove("d-none");
     status.classList.add("success");
-    status.innerHTML = "Dados enviados com sucesso!";
+    status.innerHTML = "Mensagem enviada com sucesso!";
     window.setTimeout(function () {
       status.classList.remove("success");
       status.classList.add("d-none");
